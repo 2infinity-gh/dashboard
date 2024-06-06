@@ -30,7 +30,7 @@ class LaunchStrategyV2(Dashboard.Item):
         self._controller_configs_available = self._backend_api_client.get_all_controllers_config()
         self._controller_config_selected = None
         self._bot_name = None
-        self._image_name = "dardonacci/hummingbot:latest"
+        self._image_name = "kryptosquid/hummingbot:latest"
         self._credentials = "master_account"
 
     def _set_bot_name(self, event):
